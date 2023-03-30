@@ -1,0 +1,36 @@
+title: Harpreet's learning blog
+description: Space to share experience and thoughts
+author: "Harpreet Singh"
+
+theme: minima
+
+base_url: /
+
+# Minima social links
+# twitter_username: username
+github_username: har-singh
+# linkedin_username: username
+# rss: rss
+
+# Minima: show excerpts in the frontpage
+show_excerpts: true
+
+minima:
+  date_format: "%Y-%m-%d"
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+  - _pages/about.md
+  - _pages/archive.md
+
+include:
+    - _pages
+
+exclude: 
+    - .gitignore
+    - docker-compose.yml
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
