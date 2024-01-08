@@ -19,7 +19,7 @@ categories: [Uncategorized]
 <!-- /wp:image -->
 
 <!-- wp:image {"id":84,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="./assets/imgs/f5-101-image-1.png" alt="" class="wp-image-84" /></figure>
+<figure class="wp-block-image size-large"><img src="../assets/imgs/f5-101-image-1.png" alt="" class="wp-image-84" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
