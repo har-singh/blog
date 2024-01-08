@@ -15,11 +15,11 @@ categories: [Uncategorized]
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":83,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://geek5blog.files.wordpress.com/2020/06/image.png?w=652" alt="" class="wp-image-83" /></figure>
+<figure class="wp-block-image size-large"><img src="../assets/imgs/f5-101-image.png" alt="" class="wp-image-83" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":84,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://geek5blog.files.wordpress.com/2020/06/image-1.png?w=657" alt="" class="wp-image-84" /></figure>
+<figure class="wp-block-image size-large"><img src="./assets/imgs/f5-101-image-1.png" alt="" class="wp-image-84" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
