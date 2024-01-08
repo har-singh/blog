@@ -7,7 +7,7 @@ comments: true
 categories: [asic, notes, openflow, technical]
 ---
 <!-- wp:image {"id":256,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="assets\imgs\soc-size.jpg" alt="" class="wp-image-256" /><figcaption>My Raspberry's chip size: 10x10 mm</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="../assets/imgs/soc-size.jpg" alt="" class="wp-image-256" /><figcaption>My Raspberry's chip size: 10x10 mm</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
