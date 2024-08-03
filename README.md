@@ -1,26 +1,14 @@
-# gh-pages-minima-starter
+# Blog
 
-This is a template and some instructions for running Github Pages with the [`minima` theme][minima]. This repo has what I consider the minimum pieces for a personal blog using [Jekyll][jk] and [Github Pages][gh-site]:
+###### 3-Aug-24
 
-* Frontpage that includes your last blog posts: `_pages/frontpage.md`
-* Archive for all your posts: `_pages/archive.md`
-* About page: `_pages/about.md`
-* Minimum 404 page: `_pages/404.md`
-* Minimum metadata in the `_config.yml`
-* Example CSS change inside `assets/main.scss`
-* Custom footer template `_includes/footer.html`
+A while ago (1 year) I moved block posts from Wordpress to GitHub Pages using [jsanz](README-original.md) as reference.
 
-Check out the excellent [`minima` theme][minima] documentation for further details and customization and the [official docs][gh] for more details on how Github Pages work.
+Dependabot has been sending weekly reminder emails about the vulnerabilities and there were still some references to Wordpress for the image source which were address in the `dev` branch but I never got chance to merge to main.
 
-For more details on how to create content, use Github interface, etc. feel free to browse [the website][web] or the source code here.
+Today I have spend most part of the day reviewing and finally have got updated and smaller `Gemfile.lock`.
 
-Do you have questions? feel free to [open an issue](https://github.com/jsanz/gh-pages-minima-starter/issues/new/choose) or reach me from my [contact form](https://www.jorgesanz.net/contact/).
+ChatGPT was the main assistant in doing all the work. Main takeaway are that there is a `Pages` section in the repository where reference branch can be changed. Other notes:
 
-Enjoy!!
-
-[gh-site]: https://pages.github.com/
-[jk]: https://jekyllrb.com/
-[minima]: https://github.com/jekyll/minima/tree/2.5-stable
-[gh]: https://help.github.com/en/github/working-with-github-pages
-[gh-settings]: https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-[web]: https://jsanz.github.io/gh-pages-minima-starter/
+- For the `Gemfile` it took a while installing the correct version (build?) on ubuntu. So at first the file `Gemfile.lock` was deleted and recreated with `bundle install` but it still resulted in a long lock file. Later on I tried to create the Minima setup from scratch where chat suggested to create `Gemfile` with `gem "minima", "~> 2.5"`. Once done I realized the original file had `gem 'github-pages', group: :jekyll_plugins`. ~But this trick helped with getting rid of most of the packages from the lock file.~
+- I realized later but there is option to `remediate` from the Dependabot page which would run a Actions workflow and then create a pull request with the remedies.
