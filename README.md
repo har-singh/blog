@@ -2,7 +2,7 @@
 
 ###### 3-Aug-24
 
-A while ago (1 year) I moved block posts from Wordpress to GitHub Pages using https://jsanz.github.io/gh-pages-minima-starter/ as reference.
+A while ago (1 year) I moved block posts from Wordpress to GitHub Pages using [jsanz](README-original.md) as reference.
 
 Dependabot has been sending weekly reminder emails about the vulnerabilities and there were still some references to Wordpress for the image source which were address in the `dev` branch but I never got chance to merge to main.
 
