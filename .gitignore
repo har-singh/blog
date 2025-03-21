@@ -1,0 +1,10 @@
+# HS 31-Mar-25 copied from https://github.com/timabell/0x5.uk/blob/main/.gitignore
+
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+node_modules
+package.json
