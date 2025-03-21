@@ -7,7 +7,7 @@ comments: true
 categories: [bash]
 ---
 
-# Firewall Management with firewalld
+Firewall Management with firewalld
 
 ## 1. Check if `firewalld` is Running
 To check if `firewalld` is active:
