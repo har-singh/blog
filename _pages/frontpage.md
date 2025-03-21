@@ -5,4 +5,4 @@ title: Welcome
 list_title: My blog posts
 ---
 
-Jekyll minima
+My space to share my learnings.
