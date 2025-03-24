@@ -17,6 +17,4 @@ Here are some useful resources I found while setting up my Raspberry Pi as a web
 - DigiKey Guide - [digikey.com](https://www.digikey.com/en/maker/blogs/2020/how-to-use-raspberry-pi-as-a-web-server)
 - ReadWrite Hosting Guide - [readwrite.com](https://readwrite.com/2014/06/27/raspberry-pi-web-server-website-hosting/)
 
-## Hardware Purchase
-
-Purchased and paid for a Raspberry Pi 4 Model B (8GB RAM) at 11:25. Ready to start setting up!
+I’ve purchased the Raspberry Pi 4 Model B (8GB RAM) and it's ready to go. Time to start the setup!
