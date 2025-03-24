@@ -2,7 +2,7 @@
 layout: post
 title: CBT CentOS training
 date: 2020-06-20 16:43
-author: learninghar
+author: har-singh
 comments: true
 categories: [Uncategorized]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: High throughput ethernet ASICs by Justin Pietsch
 date: 2020-09-24 18:13
-author: learninghar
+author: har-singh
 comments: true
 categories: [asic, notes, openflow, technical]
 ---

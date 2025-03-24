@@ -2,7 +2,7 @@
 layout: post
 title: Azure Private Link notes
 date: 2022-07-21 16:47
-author: learninghar
+author: har-singh
 comments: true
 categories: [azure, notes, thoughts]
 ---

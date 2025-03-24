@@ -2,7 +2,7 @@
 layout: post
 title: Stateful patent by Check Point
 date: 2020-10-22 12:49
-author: learninghar
+author: har-singh
 comments: true
 categories: [firewall, technical]
 ---

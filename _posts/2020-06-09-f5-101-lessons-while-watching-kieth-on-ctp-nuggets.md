@@ -2,7 +2,7 @@
 layout: post
 title: F5 101 - Lessons while watching Keith on CTP Nuggets
 date: 2020-06-09 12:12
-author: learninghar
+author: har-singh
 comments: true
 categories: [Uncategorized]
 ---
