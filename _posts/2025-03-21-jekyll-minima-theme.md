@@ -41,7 +41,7 @@ cd /home/blog
 1. Install Jekyll and Bundler inside the container:
 
  ```sh
- gem install jekyll bundler
+ gem install bundler jekyll
  ```
 
 2. Verify the installation:
@@ -49,9 +49,17 @@ cd /home/blog
  ```sh
  ruby -v
  gem -v
- jekyll -v
  bundler -v
+ jekyll -v
  ```
+
+```sh
+bundler install
+```
+
+```
+bundle exec jekyll serve --host 0.0.0.0
+```
 
 ## Conclusion
 By using a Docker-based environment, Jekyll can be developed and tested without installing dependencies directly on the host machine. This approach ensures a clean and reproducible setup.
