@@ -19,7 +19,6 @@ To meet Security Essentials certification requirements, a firewall is necessary.
 ## Raspberry Pi as a Firewall
 
 - Raspberry Pi4 Firewall Setup - [Guide on Instructables](https://www.instructables.com/id/Raspberry-Pi4-Firewall/)
-
 - Building Your PiWall: Gateway Firewall & Intrusion Detection - [Read on Network Filter Blog](https://networkfilter.blogspot.com/2012/08/building-your-piwall-gateway-firewall.html)
 
 These resources should help in selecting and setting up a firewall for a home office.
