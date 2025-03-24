@@ -4,7 +4,7 @@ title: Disable IPv6 on Debian
 date: 2022-06-15 13:06
 author: learninghar
 comments: true
-categories: [bash, ipv6, Uncategorized]
+categories: [bash, ipv6]
 ---
 <!-- wp:paragraph -->
 <p>When running lab vm the IPv6 is not needed. It is good to keep things simple.</p>
