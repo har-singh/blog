@@ -4,7 +4,7 @@ title: Azure Private Link notes
 date: 2022-07-21 16:47
 author: learninghar
 comments: true
-categories: [azure, notes, thoughts, Uncategorized]
+categories: [azure, notes, thoughts]
 ---
 <!-- wp:paragraph -->
 <p>Notes and thoughts while reading https://journeyofthegeek.com/2020/03/05/azure-private-link-and-dns-part-1/</p>

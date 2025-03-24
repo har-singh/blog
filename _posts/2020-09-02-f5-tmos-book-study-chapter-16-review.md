@@ -4,7 +4,7 @@ title: F5 TMOS book study. Chapter 16 review
 date: 2020-09-02 10:19
 author: learninghar
 comments: true
-categories: [bigip, f5, Uncategorized]
+categories: [bigip, f5]
 ---
 <!-- wp:paragraph -->
 <p>The answers for the Chapter 16 review:</p>

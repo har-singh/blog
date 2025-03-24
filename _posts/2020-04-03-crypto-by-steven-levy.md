@@ -4,7 +4,7 @@ title: Crypto by Steven Levy
 date: 2020-04-03 13:33
 author: learninghar
 comments: true
-categories: [book, crypto, notes, Uncategorized]
+categories: [book, crypto, notes]
 ---
 <!-- wp:paragraph -->
 <p>Notes from Crypto by Steven Levy</p>
