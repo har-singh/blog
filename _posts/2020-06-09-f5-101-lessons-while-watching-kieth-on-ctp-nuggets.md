@@ -11,8 +11,8 @@ categories: [f5, bigip]
 
 Screenshot from lesson:
 
-![F5 101 Image](assets/imgs/f5-101-image.png)
-![F5 101 Image 1](assets/imgs/f5-101-image-1.png)
+![F5 101 Image](/assets/imgs/f5-101-image.png)
+![F5 101 Image 1](/assets/imgs/f5-101-image-1.png)
 
 Notes:
 
