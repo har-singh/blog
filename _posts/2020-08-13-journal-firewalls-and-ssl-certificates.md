@@ -30,4 +30,4 @@ Set Up a DNS Name Server - [wired.com](https://www.wired.com/2010/02/set_up_a_dn
 
 *Domain name data is structured hierarchically. At the top level is the root node. Every domain on the Internet is a member of the root node. Under the root node are top-level domains like `.com`, `.edu`, `.org`, `.uk`, `.ru`, `.biz`, etc. Below that are domain names such as `webmonkey.com`, `navy.mil`, or country code extensions like `.co.uk`. Anything beneath that is a subdomain or host. Subdomain names can be layered to a total depth of 127 levels.*
 
-[How To Use Nslookup To Check DNS TXT Record - [rmilne.ca](https://blog.rmilne.ca/2015/09/11/how-to-use-nslookup-to-check-dns-txt-record/)
+How To Use Nslookup To Check DNS TXT Record - [rmilne.ca](https://blog.rmilne.ca/2015/09/11/how-to-use-nslookup-to-check-dns-txt-record/)
