@@ -35,7 +35,7 @@ git diff --word-diff origin/$(git symbolic-ref --short -q HEAD) prod/main ':*bac
 
 ```sh
 git config -l # List all Git configurations
-git config --global user.email 51124520+har-singh@users.noreply.github.com
+git config --global user.email 98765432+foo-bar@users.noreply.github.com
 git config --global user.name "H Singh"
 ```
 
@@ -57,19 +57,6 @@ git log --pretty=format:"%h %ad %s" --date=short | head
 git log --all --decorate --oneline --graph # Display commit graph
 ```
 
-## Cherry-Picking and Diffs
-
-```sh
-git cherry-pick 133535f # Apply commit '133535f'
- 
-```
-
-## Squashing and Merging
-
-```sh
-git merge --no-commit --squash 426-feature # Squash merge without committing
-```
-
 For a typical feature squash workflow:
 ```sh
 git checkout main
@@ -81,10 +68,11 @@ git commit -am 'feature squash'
 ## Remote Repository Management
 
 ```sh
-git remote add -f b path/to/repo_b.git# Add and fetch remote repo 'b'
-git remote update# Update all remotes
+git remote add -f b path/to/repo_b.git # Add and fetch remote repo 'b'
+git remote update # Update all remotes
 git diff master remotes/b/master # Compare local master with remote 'b' master
 git remote rm b # Remove remote 'b'
+git remote add dev git@github.com:har-singh/azure.git
 ```
 
 ### Additional Resources
