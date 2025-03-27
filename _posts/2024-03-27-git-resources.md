@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git Resources
-date: 2025-03-27 12:30
+date: 2024-03-27 12:30
 author: har-singh
 comments: true
 categories: [git]
