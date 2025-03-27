@@ -36,7 +36,7 @@ Over time, I’ve compiled a list of useful Git resources that have helped me un
 ## 🔥 Stashing and Advanced Git Usage
 - Git Stash and Git Rebase. When to use them and how to handle… - [Sean LaFlam](https://levelup.gitconnected.com/git-stash-and-git-rebase-535811a3cb84)
 - Part 2: Stashing and Rebasing in Git - [DEV Community](https://dev.to/maybebored/part-2-stashing-and-rebasing-in-git-4143)
-- The Advanced Git Guide - Toptal](https://www.toptal.com/git/the-advanced-git-guide)
+- The Advanced Git Guide - [Toptal](https://www.toptal.com/git/the-advanced-git-guide)
 
 ## 🛠 Miscellaneous Git Tricks
 - How to tidy up your merge requests with Git - [GitLab](https://about.gitlab.com/blog/2019/02/07/start-using-git/)
