@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Red Hat training for Linux basics"
+title: Red Hat training for Linux basics
 date: 2020-04-03 12:57
 author: har-singh
 comments: true
