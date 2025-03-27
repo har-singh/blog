@@ -7,10 +7,10 @@ comments: true
 categories: [asic, notes, openflow, technical]
 ---
 
-High-throughput Ethernet ASICs (Application-Specific Integrated Circuits) are a critical component of modern high-speed networking. In this post, I summarize key insights from Justin Pietsch's article, "A Summary of High-Speed Ethernet ASICs," and share some additional notes.
-
 ![My Raspberry's chip size: 10x10 mm](/assets/imgs/soc-size.jpg)
 *My Raspberry's chip size: 10x10 mm*
+
+High-throughput Ethernet ASICs (Application-Specific Integrated Circuits) are a critical component of modern high-speed networking. In this post, I summarize key insights from Justin Pietsch's article, "A Summary of High-Speed Ethernet ASICs," and share some additional notes.
 
 ### Key Takeaways from the Article
 

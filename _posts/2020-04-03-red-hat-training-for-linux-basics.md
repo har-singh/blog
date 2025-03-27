@@ -13,4 +13,4 @@ The second thing I learned is that there are two independent `/tmp` directories 
 
 These are basic concepts, but basics are important!
 
-All of this was thanks to the Red Hat Enterprise Linux Technical Overview course – specifically the lesson on The File System Hierarchy. Huge thanks to Red Hat for making this material available for free (temporarily) at [https://www.redhat.com/en/services/training/rh024-red-hat-linux-technical-overview](https://www.redhat.com/en/services/training/rh024-red
+All of this was thanks to the Red Hat Enterprise Linux Technical Overview course – specifically the lesson on The File System Hierarchy. Huge thanks to Red Hat for making this material available for free (temporarily) at [rh024 redhat.com](https://www.redhat.com/en/services/training/rh024-red-hat-linux-technical-overview)
