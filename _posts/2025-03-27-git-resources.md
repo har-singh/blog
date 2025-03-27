@@ -46,7 +46,7 @@ Over time, I’ve compiled a list of useful Git resources that have helped me un
 - How do I revert a Git repository to a previous commit? - [Stack Overflow](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 - `git reset --hard HEAD~4`
 
-[What is Git fast-forwarding? - [Stack Overflow](https://stackoverflow.com/questions/29673869/what-is-git-fast-forwarding)
+What is Git fast-forwarding? - [Stack Overflow](https://stackoverflow.com/questions/29673869/what-is-git-fast-forwarding)
 
 ---
 
