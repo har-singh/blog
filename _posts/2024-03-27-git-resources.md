@@ -7,7 +7,7 @@ comments: true
 categories: [git]
 ---
 
-Over time, I’ve compiled a list of useful Git resources that have helped me understand and use Git effectively. This post serves as a reference for myself and others looking for guidance on Git commands, branching, merging, and more.
+Over time, I’ve compiled a list of useful Git resources that have helped me understand and use Git effectively. This post serves as a reference for myself and others looking for guidance on Git commands, branching, merging, and more. If you’re interested in a practical collection of [Git commands]({% post_url 2024-03-26-git-commands %}) for everyday use, check out my Git Commands post, where I’ve listed essential commands and their use cases.
 
 ## 📌 Git Basics
 - Learn the Basics of Git in Under 10 Minutes [(freecodecamp.org)](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)

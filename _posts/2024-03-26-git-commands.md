@@ -7,7 +7,7 @@ comments: true
 categories: [git]
 ---
 
-This blog post serves as a personal reference for useful Git commands and related resources. Git is an essential tool for version control and collaboration. Below you'll find commands grouped by their functionality.
+This blog post serves as a personal reference for useful Git commands and related resources. Git is an essential tool for version control and collaboration. Below you'll find commands grouped by their functionality. If you're looking for additional learning materials and references, check out my [Git Resources]({% post_url 2024-03-27-git-resources %}) post, where I’ve compiled a list of articles and guides that have helped me understand Git better.
 
 ## Frequently Used Commands
 
