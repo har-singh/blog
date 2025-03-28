@@ -6,75 +6,73 @@ author: har-singh
 comments: true
 categories: [bigip, snmp, technical]
 ---
-<!-- wp:paragraph -->
-<p>A post to document and share the cli commands required to configure SNMP agent on F5 device.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Via the GUI the configuration is pretty much straight forward:</p>
-<!-- /wp:paragraph -->
+A post to document and share the commands required to configure the SNMP agent on an F5 device.
 
-<!-- wp:list {"ordered":true} -->
-<ol><li>Allow NMS IP to the list at <strong>System &gt; SNMP &gt; Agent &gt; Configuration</strong><ul><li>I had to struggle here as the snmpwalk test was working from the bigip box when pointing to localhost (127.0.0.1) however the snmpwalk against the management IP didn't work. By default (and F5 is default deny device) the SNMP requests are blocked.</li></ul></li><li>Add user by navigating to <strong>System &gt; SNMP &gt; Agent &gt; Access (v3)</strong><ul><li>more information about Authentication type, Privacy protocol, Security level can be retrived from the F5 knowledge base article <a rel="noreferrer noopener" href="https://support.f5.com/csp/article/K13625" target="_blank">K13625</a></li></ul></li></ol>
-<!-- /wp:list -->
+## Configuring SNMP via GUI
 
-<!-- wp:paragraph -->
-<p><em>Note: what to put for the <strong>OID </strong>was a bit tricky as it is a mendatory field and I had no clue on what to put in there. Looking at kb article I found that <strong>.1</strong> can be specifed to get all the MIBs.</em></p>
-<!-- /wp:paragraph -->
+Via the GUI, the configuration is straightforward:
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
+1. Allow NMS IP in the list at **System > SNMP > Agent > Configuration**  
+   - I had to struggle here as the `snmpwalk` test was working from the BIG-IP box when pointing to localhost (`127.0.0.1`), but the `snmpwalk` against the management IP didn't work.  
+   - By default (as F5 is a default deny device), SNMP requests are blocked.
 
-<!-- wp:paragraph -->
-<p>What I've done is to create a user via GUI and issues the <code>show running-config sys snmp users</code> command at the CLI to get syntax; which is the following:</p>
-<!-- /wp:paragraph -->
+2. Add a user by navigating to **System > SNMP > Agent > Access (v3)**  
+   - More information about authentication type, privacy protocol, and security level can be retrieved from the F5 knowledge base article:  
+     [K13625](https://support.f5.com/csp/article/K13625)
 
-<!-- wp:code -->
-<pre class="wp-block-code"><code>root@(bigip1)(cfg-sync Standalone)(Active)(/Common)(tmos)# show running-config sys snmp users
+> [!NOTE]  
+> The **OID** field is mandatory, but it wasn't clear what to enter. The KB article suggests that specifying `.1` will retrieve all MIBs.
+
+## Configuring SNMP via CLI
+
+I created a user via the GUI and then ran the following command to get the syntax:
+
+```sh
+show running-config sys snmp users
 sys snmp {
     users {
         idemo_1 {
             auth-password-encrypted "XICfN\?MFr6CM=jHBg^p]VM;IUPkcY7jY@q\?=BRd/^HjSX8I"
             auth-protocol sha
             oid-subset .1
-            privacy-password-encrypted 9b&lt;L`=8:qgB_3\\CIJo8OjR)iLPPwH30_TbSAWLfoeQi\?i6W
+            privacy-password-encrypted 9b<L`=8:qgB_3\CIJo8OjR)iLPPwH30_TbSAWLfoeQi\?i6W
             privacy-protocol aes
             security-level auth-privacy
             username demo
         }
     }
 }
+```
 
-</code></pre>
-<!-- /wp:code -->
+From this, I created a command that can be issued directly to the CLI to create the user:
 
-<!-- wp:paragraph -->
-<p>From this I've created the command which can be issues directly to the CLI create create the user:</p>
-<!-- /wp:paragraph -->
+```sh
+modify sys snmp allowed-addresses add { 10.0.0.0/255.0.0.0 }
 
-<!-- wp:code -->
-<pre class="wp-block-code"><code>modify sys snmp allowed-addresses add { 10.0.0.0/255.0.0.0 }
+modify sys snmp users add { snmpuser-entry {  
+    auth-password "MakeUpSomePassword"  
+    auth-protocol sha  
+    oid-subset .1  
+    privacy-password "MakeUpSomePassword"  
+    privacy-protocol aes  
+    security-level auth-privacy  
+    username snmpuser  
+} }
+```
 
-modify sys snmp users add { snmpuser-entry {  auth-password "MakeUpSomePassword" auth-protocol sha oid-subset .1 privacy-password "MakeUpSomePassword" privacy-protocol aes security-level auth-privacy username snmpuser } }</code></pre>
-<!-- /wp:code -->
+## Testing SNMP Configuration
+You can test the SNMP configuration using the following command:
 
-<!-- wp:paragraph -->
-<p>The test section:</p>
-<!-- /wp:paragraph -->
+```sh
+snmpget -v3 -u snmpuser -a SHA -A "MakeUpSomePassword" -x AES -X "MakeUpSomePassword" -l authPriv 192.168.1.245 iso.3.6.1.2.1.1.5.0
+```
 
-<!-- wp:code -->
-<pre class="wp-block-code"><code>snmpget -v3 -u snmpuser -a SHA -A "MakeUpSomePassword" -x AES -X "MakeUpSomePassword" -l authPriv 192.168.1.245 iso.3.6.1.2.1.1.5.0
+### Expected Output:
 
-Answer:
+```sh
 iso.3.6.1.2.1.1.5.0 = STRING: "bigip1.f5lab.com"
-</code></pre>
-<!-- /wp:code -->
+```
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The knowledge base article <a rel="noreferrer noopener" href="https://support.f5.com/csp/article/K12601" target="_blank">K12601</a> is being reported as archived but was very useful to understand the commands.</p>
-<!-- /wp:paragraph -->
+## Additional Resources
+The knowledge base article [K12601](https://support.f5.com/csp/article/K12601) has been reported as archived, but it was very useful in understanding these commands.
