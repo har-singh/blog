@@ -2,7 +2,7 @@
 layout: post
 title: Disable IPv6 on Debian
 date: 2022-06-15 13:06
-author: learninghar
+author: har-singh
 comments: true
 categories: [bash, ipv6]
 ---

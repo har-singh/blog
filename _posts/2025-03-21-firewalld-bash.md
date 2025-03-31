@@ -2,7 +2,7 @@
 layout: post
 title: Firewall Management with firewalld
 date: 2025-03-21 17:48
-author: learninghar
+author: har-singh
 comments: true
 categories: [bash]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Ready for Jekyll Minima Theme on GitHub Pages
 date: 2025-03-21 18:36
-author: learninghar
+author: har-singh
 comments: true
 categories: [blog]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Android on Linx tablet
 date: 2020-09-25 17:49
-author: learninghar
+author: har-singh
 comments: true
 categories: [android, journal, tablet]
 ---

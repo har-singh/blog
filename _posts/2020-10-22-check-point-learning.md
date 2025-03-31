@@ -2,7 +2,7 @@
 layout: post
 title: Check Point learning
 date: 2020-10-22 17:42
-author: learninghar
+author: har-singh
 comments: true
 categories: [Uncategorized]
 ---

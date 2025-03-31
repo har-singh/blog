@@ -2,7 +2,7 @@
 layout: post
 title: Researching OAuth
 date: 2025-03-21 18:41
-author: learninghar
+author: har-singh
 comments: true
 categories: [blog]
 ---
