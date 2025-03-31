@@ -34,3 +34,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+google_analytics:
+  id: "G-JP01K5MJZK"
