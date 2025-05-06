@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Created First Ever Windows Executable Software in 2 Hours
-date: 2025-05-06 14:00
+date: 2025-05-06 12:55
 author: har-singh
 comments: true
 categories: [blog]
