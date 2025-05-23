@@ -39,7 +39,7 @@ Consider this setup:
 The outcome:
 - Azure provisions VM resources for the plan
 - Each Function App runs in its **own isolated container**
-- All containers share the same VM infrastructure provided by the plan
+- They **share the same underlying compute** (memory, CPU), but are isolated at the container level
 
 So, the Function Apps are containerised, but the App Plan is just the shared compute layer.
 
