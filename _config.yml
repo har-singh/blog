@@ -2,9 +2,12 @@ title: Harpreet's learning blog
 description: Space to share experience and thoughts
 author: "Harpreet Singh"
 
-theme: minima
+remote_theme: jekyll/minima
 
 base_url: /
+
+plugins:
+  - jekyll-remote-theme
 
 # Minima social links
 # twitter_username: username
