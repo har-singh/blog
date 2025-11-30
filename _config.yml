@@ -1,41 +1,35 @@
 title: Harpreet's learning blog
 description: Space to share experience and thoughts
 author: "Harpreet Singh"
+url: "https://blog.geekfive.co.uk"
 
 remote_theme: jekyll/minima
 
-base_url: /
-
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# Minima social links
-# twitter_username: username
+# Social links (shown in footer)
 github_username: har-singh
-# linkedin_username: username
-# rss: rss
 
-# Minima: show excerpts in the frontpage
+# Blog settings
 show_excerpts: true
 
 minima:
   date_format: "%Y-%m-%d"
-  skin: auto  # Options: classic, dark, auto, solarized, solarized-dark
+  skin: auto
 
-# Minima: custom header links
+# Navigation menu (order matters)
 header_pages:
-  - _pages/frontpage.md
-  - _pages/about.md
-  - _pages/archive.md
+  - about.md
+  - archive.md
 
-include:
-    - _pages
-
-exclude: 
-    - .gitignore
-    - docker-compose.yml
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - README-original.md
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - node_modules
+  - vendor
