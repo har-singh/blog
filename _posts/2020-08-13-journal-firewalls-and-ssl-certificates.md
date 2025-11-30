@@ -4,7 +4,7 @@ title: "Journal: Exploring Firewalls and SSL Certificates"
 date: 2020-08-13 10:23
 author: har-singh
 comments: true
-categories: [journal]
+categories: [security]
 ---
 
 Looking at Let’s Encrypt SSL certificate options:

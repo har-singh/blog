@@ -4,7 +4,7 @@ title: Red Hat training for Linux basics
 date: 2020-04-03 12:57
 author: har-singh
 comments: true
-categories: [basics, learning, linux, red hat]
+categories: [linux]
 ---
 
 I've just learned that the `usr` directory on Linux/UNIX systems stands for UNIX System Resources. I always assumed that `usr` was an abbreviation for 'user'. Another lesson here: never assume.

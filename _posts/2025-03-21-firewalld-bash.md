@@ -4,7 +4,7 @@ title: Firewall Management with firewalld
 date: 2025-03-21 17:48
 author: har-singh
 comments: true
-categories: [bash]
+categories: [linux]
 ---
 
 Firewall Management with firewalld

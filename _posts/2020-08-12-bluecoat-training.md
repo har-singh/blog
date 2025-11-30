@@ -4,7 +4,7 @@ title: Bluecoat Training
 date: 2020-08-12 11:13
 author: har-singh
 comments: true
-categories: [journal]
+categories: [security]
 ---
 
 ## Requirements

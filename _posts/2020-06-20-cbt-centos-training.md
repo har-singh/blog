@@ -4,7 +4,7 @@ title: CBT CentOS Training
 date: 2020-06-20 16:43
 author: har-singh
 comments: true
-categories: [bash]
+categories: [linux]
 ---
 
 - `telinit <run-level>`  

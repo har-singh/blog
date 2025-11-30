@@ -4,7 +4,7 @@ title: Azure Firewall Kusto Query - AZFW vs AzureFirewall Categories
 date: 2025-11-29 11:45
 author: har-singh
 comments: true
-categories: [azure, security]
+categories: [azure]
 ---
 
 Quick reference for querying Azure Firewall logs in Log Analytics using Kusto (KQL).
