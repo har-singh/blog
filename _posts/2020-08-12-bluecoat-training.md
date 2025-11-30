@@ -28,4 +28,4 @@ categories: [journal]
 
 ## Lessons Learned:
 
-SSL knowldege, http knowledge, HA (failover, Gratuitous ARP), proxy mode, user authentication
+SSL knowledge, HTTP knowledge, HA (failover, Gratuitous ARP), proxy mode, user authentication
