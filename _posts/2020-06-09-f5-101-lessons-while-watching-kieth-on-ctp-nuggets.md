@@ -4,7 +4,7 @@ title: F5 101 - Lessons while watching Keith on CTP Nuggets
 date: 2020-06-09 12:12
 author: har-singh
 comments: true
-categories: [f5, bigip]
+categories: [f5]
 ---
 
 - Have the habit of creating always a custom profile. Don’t use the default profiles. One benefit is that it will force you to look at the profile settings (a profile is a collection of settings). For example, opening the OneConnect profile will show what the limits are imposed in terms of connections and timeouts.

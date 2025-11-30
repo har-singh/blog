@@ -4,7 +4,7 @@ title: Stateful patent by Check Point
 date: 2020-10-22 12:49
 author: har-singh
 comments: true
-categories: [firewall, technical]
+categories: [security]
 ---
 
 Article written on March 17, 1997.

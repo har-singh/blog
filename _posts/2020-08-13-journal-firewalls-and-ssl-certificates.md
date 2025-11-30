@@ -4,15 +4,15 @@ title: "Journal: Exploring Firewalls and SSL Certificates"
 date: 2020-08-13 10:23
 author: har-singh
 comments: true
-categories: [journal]
+categories: [security]
 ---
 
 Looking at Let’s Encrypt SSL certificate options:
 
   - Let’s Encrypt Certificates on GoDaddy Hosting - [letsencrypt.org](https://letsencrypt.org/docs/godaddy/)
-  - Install a Let’s Encrypt certificate on your Linux Hosting account- [godaddy.com](https://uk.godaddy.com/help/install-a-lets-encrypt-certificate-on-your-linux-hosting-account-28023)
+- Install a Let's Encrypt certificate on your Linux Hosting account- [godaddy.com](https://uk.godaddy.com/help/install-a-lets-encrypt-certificate-on-your-linux-hosting-account-28023)
   - How to change your DNS settings in GoDaddy- [rocketspark.com](https://support.rocketspark.com/hc/en-us/articles/115010277387-How-to-change-your-DNS-settings-in-GoDaddy)
-  - Let’s Encrypt Getting Started – Manual Mode- [certbot.eff.org]](https://certbot.eff.org/docs/using.html#manual)
+  - Let's Encrypt Getting Started – Manual Mode- [certbot.eff.org](https://certbot.eff.org/docs/using.html#manual)
 
 Discovered that GoDaddy’s cPanel provides built-in email support with up to 100 accounts.
 

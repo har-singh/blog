@@ -4,20 +4,15 @@ title: Check Point learning
 date: 2020-10-22 17:42
 author: har-singh
 comments: true
-categories: [Uncategorized]
+categories: [security]
 ---
-<!-- wp:paragraph -->
-<p>Few terminologies from Check Point slides:</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul><li>packet filtering</li><li>statefull inspection</li><li>application intelligence</li><li>INSPECT ENGINE</li><li>Security Gateway</li><li>Management Server</li><li>SmartDashboard and SmartConsole</li></ul>
-<!-- /wp:list -->
+Key terminologies from Check Point training:
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
+- **Packet Filtering** — Basic firewall technique that inspects packets based on source/destination IP, ports, and protocol
+- **Stateful Inspection** — Tracks the state of network connections to make more intelligent filtering decisions (patented by Check Point)
+- **Application Intelligence** — Deep packet inspection at the application layer to identify and control specific applications
+- **INSPECT Engine** — Check Point's proprietary inspection engine that processes traffic through the firewall
+- **Security Gateway** — The firewall component that enforces security policy and inspects traffic
+- **Management Server** — Centralised server for managing security policies across multiple gateways
+- **SmartDashboard / SmartConsole** — GUI tools for configuring and managing Check Point firewalls

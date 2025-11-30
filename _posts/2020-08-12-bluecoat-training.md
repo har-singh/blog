@@ -4,7 +4,7 @@ title: Bluecoat Training
 date: 2020-08-12 11:13
 author: har-singh
 comments: true
-categories: [journal]
+categories: [security]
 ---
 
 ## Requirements
@@ -28,4 +28,4 @@ categories: [journal]
 
 ## Lessons Learned:
 
-SSL knowldege, http knowledge, HA (failover, Gratuitous ARP), proxy mode, user authentication
+SSL knowledge, HTTP knowledge, HA (failover, Gratuitous ARP), proxy mode, user authentication

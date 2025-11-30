@@ -4,7 +4,7 @@ title: SNMP v3 on F5 BIG-IP
 date: 2020-09-17 16:01
 author: har-singh
 comments: true
-categories: [bigip, snmp, technical]
+categories: [f5]
 ---
 
 A post to document and share the commands required to configure the SNMP agent on an F5 device.

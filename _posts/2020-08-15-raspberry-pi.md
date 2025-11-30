@@ -4,7 +4,7 @@ title: Raspberry Pi Web Server Setup
 date: 2020-08-15 10:30
 author: har-singh
 comments: true
-categories: [security]
+categories: [linux]
 ---
 
 Setting up an Apache Web Server on a Raspberry Pi

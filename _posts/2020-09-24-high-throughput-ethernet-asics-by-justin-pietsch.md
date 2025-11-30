@@ -4,7 +4,7 @@ title: High Throughput Ethernet ASICs by Justin Pietsch
 date: 2020-09-24 18:13
 author: har-singh
 comments: true
-categories: [asic, notes, openflow, technical]
+categories: [networking]
 ---
 
 ![My Raspberry's chip size: 10x10 mm](/assets/imgs/soc-size.jpg)

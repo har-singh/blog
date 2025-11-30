@@ -1,19 +1,17 @@
 ---
 layout: post
-title: F5 TMOS book study. Chapter 16 review
+title: F5 TMOS Book Study - Chapter 16 Review
 date: 2020-09-02 10:19
 author: har-singh
 comments: true
-categories: [bigip, f5]
+categories: [f5]
 ---
-<!-- wp:paragraph -->
-<p>The answers for the Chapter 16 review:</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td>1</td><td>b</td></tr><tr><td>2</td><td>c</td></tr><tr><td>3</td><td>a</td></tr><tr><td>4</td><td>a</td></tr></tbody></table></figure>
-<!-- /wp:table -->
+Answers for Chapter 16 review questions:
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
+| Question | Answer |
+|----------|--------|
+| 1 | b |
+| 2 | c |
+| 3 | a |
+| 4 | a |

@@ -1,14 +1,17 @@
-# Blog
+# Harpreet's Learning Blog
 
-###### 3-Aug-24
+A personal space to share experience, thoughts, and technical notes — mostly around networking, security, and infrastructure.
 
-A while ago (1 year) I moved block posts from Wordpress to GitHub Pages using [jsanz](README-original.md) as reference.
+🔗 [blog.geekfive.co.uk](https://blog.geekfive.co.uk)
 
-Dependabot has been sending weekly reminder emails about the vulnerabilities and there were still some references to Wordpress for the image source which were address in the `dev` branch but I never got chance to merge to main.
+## About
 
-Today I have spend most part of the day reviewing and finally have got updated and smaller `Gemfile.lock`.
+Migrated from WordPress to GitHub Pages using [jsanz's guide](README-original.md) as reference. Built with Jekyll and the Minima theme.
 
-ChatGPT was the main assistant in doing all the work. Main takeaway are that there is a `Pages` section in the repository where reference branch can be changed. Other notes:
+LLMs (ChatGPT, GitHub Copilot Claude Opus 4.5 (preview)) have been helpful for troubleshooting, writing posts, and maintaining this blog.
 
-- For the `Gemfile` it took a while installing the correct version (build?) on ubuntu. So at first the file `Gemfile.lock` was deleted and recreated with `bundle install` but it still resulted in a long lock file. Later on I tried to create the Minima setup from scratch where chat suggested to create `Gemfile` with `gem "minima", "~> 2.5"`. Once done I realized the original file had `gem 'github-pages', group: :jekyll_plugins`. ~But this trick helped with getting rid of most of the packages from the lock file.~
-- I realized later but there is option to `remediate` from the Dependabot page which would run a Actions workflow and then create a pull request with the remedies.
+## Lessons Learned
+
+- GitHub repos have a **Pages** section where you can change the reference branch for deployment
+- Dependabot's `remediate` option runs a workflow and creates a PR with fixes — useful for staying on top of vulnerabilities
+- When troubleshooting `Gemfile.lock` issues, sometimes deleting and running `bundle install` fresh helps, but sticking with `gem 'github-pages'` keeps things GitHub Pages compatible
